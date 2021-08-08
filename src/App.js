@@ -31,7 +31,7 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/project" component={Projects} />
+          {/* <Route path="/project" component={Projects} /> */}
           <Route path="/resume" component={Resume} />
         </Switch>
         <Footer />

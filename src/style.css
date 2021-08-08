@@ -514,14 +514,14 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #773d06d7 !important;
+  border-color: #773d06d7 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #572b13!important;
+  border-color: #572b13!important;
 }
 .btn:focus {
   outline: none !important;
@@ -639,14 +639,14 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #ac630f;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #ff77075d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -676,7 +676,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #a75000;
 }
 
 .like-item {
