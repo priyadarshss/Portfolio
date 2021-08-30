@@ -11,16 +11,16 @@ function Resume() {
   const url1 = 'https://competitive-coding-api.herokuapp.com/api/codechef/pd28'
   const url2 = 'https://codeforces.com/api/user.info?handles=priyadarshss'
 
-  const [codechefRank, upadteCodechefRank] = useState(0);
-  const [codeforcesRank, upadteCodeforcesRank] = useState(0);
-  const [sem, upadateSem] = useState(4);
-  const [cgpa, upadteCgpa] = useState(9.5);
+  const [codechefRating, upadteCodechefRating] = useState(0);
+  const [codeforcesRating, upadteCodeforcesRating] = useState(0);
+  const sem=4;
+  const cgpa=9.5;
 
   useEffect(() => {
     axios
       .get(url1)
       .then((res) => {
-        upadteCodechefRank(res.data.rating);
+        upadteCodechefRating(res.data.rating);
       })
       .catch((err) => {
         console.log(err);
@@ -32,7 +32,7 @@ function Resume() {
       .get(url2)
       .then((res) => {
         console.log(res)
-        upadteCodeforcesRank(res.data.result[0].rating)
+        upadteCodeforcesRating(res.data.result[0].rating)
       })
       .catch((err) => {
         console.log(err)
@@ -85,13 +85,13 @@ function Resume() {
               date='2016 - 2017'
               content={['10 CGPA']}
             />
-            <h3 className='resume-title'>Ranks and Achivements</h3>
+            <h3 className='resume-title'>Ratings and Achivements</h3>
             <Resumecontent
               title=''
               content={[
-                `Current rank in Codechef: ${codechefRank}`,
-                `Current rank in Codeforces: ${codeforcesRank}`,
-                'Participant in Bajaj Finserv HackRx 2021',
+                `Current rating in Codechef: ${codechefRating}`,
+                `Current rating in Codeforces: ${codeforcesRating}`,
+                `Participant in Bajaj Finserv HackRx 2021`,
               ]}
             />
           </Col>
