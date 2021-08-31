@@ -4,14 +4,10 @@ import Techstack from "./Techstack"
 import Toolstack from "./Toolstack"
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from 'react-icons/ai'
-import {SiGmail} from 'react-icons/si'
-import { FaLinkedinIn} from 'react-icons/fa'
-import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc'
+import { AiFillGithub } from 'react-icons/ai';
+import {SiGmail} from 'react-icons/si';
+import { FaLinkedinIn} from 'react-icons/fa';
+import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 
 function Home2() {
   return (
@@ -30,30 +26,19 @@ function Home2() {
               <br />
               Fluent in classics like
               <i>
-                <b className='orange'> C++, Python and Javascript. </b>
+                <b className='orange'> C++, Python and Javascript</b>; does <b className="orange">Competitive Programming </b>
+                from time to time.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
-                <b className='orange'>Web Technologies and Products </b> and
+                <b className='orange'>Blockchain Tech </b> and
                 also in areas related to{' '}
-                <b className='orange'>Blockchain Tech.</b>
+                <b className='orange'>Web Technologies and Products</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className='orange'>Node.js</b> and
-              <i>
-                <b className='orange'>
-                  {' '}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className='orange'> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className='myAvtar'>
@@ -117,16 +102,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className='social-icons'>
-                <a
-                  href='https://twitter.com/priyadarshss'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='icon-colour  home-social-icons'
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+              
               <li className='social-icons'>
                 <a
                   href='https://www.linkedin.com/in/priyadarsh-s-s-7974431b0/'
@@ -137,16 +113,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className='social-icons'>
-                <a
-                  href='https://www.instagram.com/priyadarsh_ss/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='icon-colour home-social-icons'
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

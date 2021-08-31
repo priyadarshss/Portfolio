@@ -6,18 +6,19 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Web Developer",
-          "Smart Contract Developer",
-          // "MERN Stack Developer",
-          "Competitive Programmer",
-          "Open Source Contributor",
+          'Web Developer',
+          'Competitive Programmer',
+          'Smart Contract Developer',
+          'Competitive Programmer',
+          'MERN Stack Developer',
+          // "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 100,
       }}
     />
-  );
+  )
 }
 
 export default Type;
