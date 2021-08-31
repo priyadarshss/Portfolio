@@ -68,11 +68,10 @@ function Home2() {
                   <VscDebugBreakpointDataUnverified /> Stock Trading
                 </li>
                 <li className='about-activity'>
-                  <VscDebugBreakpointDataUnverified /> Teecha help
+                  <VscDebugBreakpointDataUnverified /> Athletics
                 </li>
                 <li className='about-activity'>
-                  <VscDebugBreakpointDataUnverified /> cos you know me
-                  better(sketching?)
+                  <VscDebugBreakpointDataUnverified /> Sketching
                 </li>
               </ul>
             </div>
