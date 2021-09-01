@@ -11,18 +11,16 @@ This project was built using these technologies.
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
-- VsCode
 - Firebase
 
 ## Features
 
-**📖 Multi-Page Layout**
+**Multi-Page Layout**
 
-** Styled with React-Bootstrap and Css with easy to customize colors**
+**Styled with React-Bootstrap and Css with easy to customize colors**
 
-** Fully Responsive**
+**Fully Responsive**
 
 ## Getting Started
 
