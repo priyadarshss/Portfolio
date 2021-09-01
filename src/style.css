@@ -18,6 +18,11 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.scroller {
+  background-color: #0f0a04;
+  padding-bottom: 50px;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -28,7 +33,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #0f0a04;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -51,18 +56,15 @@ html {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #2d1950;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
@@ -154,6 +156,24 @@ html {
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+  -webkit-transition: transform 0.9s ease-in-out;
+  -moz-transition: transform 0.9s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+}
+
+.logo:hover{
+  transform: scale(1.2) !important;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.logo:hover::after{
+    -webkit-transition: transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
 }
 
 .navbar-nav .nav-link {
@@ -191,7 +211,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #ff8500;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -428,15 +448,13 @@ html {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -463,53 +481,17 @@ html {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(151, 86, 0, 0.561) !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
-
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
 }
 
 .btn-primary {
@@ -537,14 +519,6 @@ html {
 /* --------- */
 /* About */
 /* --------- */
-
-.about-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
-}
 
 .tech-icons {
   font-size: 4.5em !important;
@@ -575,12 +549,6 @@ html {
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
-}
-
-.quote-card-view {
-  border: none !important;
-  color: white !important;
-  background-color: transparent !important;
 }
 
 .about-activity {
@@ -679,41 +647,6 @@ html {
   border: 2px solid #a75000;
 }
 
-.like-item {
-  padding-top: 10px !important;
-  font-size: 1.1em !important;
-  font-family: sans-serif !important;
-}
-
-.like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
-  padding: 0.25rem 0.98rem !important;
-  border-radius: 5px !important;
-  line-height: 1.4 !important;
-  transition: 0.3s ease !important;
-}
-
-.like-btn:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-
-.animate-like {
-  animation-name: likeAnimation;
-  animation-fill-mode: forwards;
-  animation-duration: 0.85s;
-}
-@keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 .fork-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
@@ -721,7 +654,7 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #723b0c !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -729,9 +662,10 @@ html {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #f0740186 !important;
+  border-color: #e48d0b86 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }
