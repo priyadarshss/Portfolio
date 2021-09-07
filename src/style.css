@@ -96,7 +96,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #b9a7c2 !important;
+  background-color: #de8e38 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -467,7 +467,7 @@ html {
 
 .project-card {
   padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-bottom: 30px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;

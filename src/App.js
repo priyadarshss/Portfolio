@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import ScrollToTop from 'react-scroll-to-top'
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -32,7 +31,6 @@ function App() {
           <Route path='/resume' component={Resume} />
           <Route path='/project' component={Projects} />
         </Switch>
-        {/* <ScrollToTop classname="scroller" smooth color='#ff4000' /> */}
         <Footer />
       </div>
     </Router>
