@@ -7,6 +7,7 @@ import {
   SiNetlify,
 } from 'react-icons/si'
 import { SiFirebase } from 'react-icons/si'
+import { CgFigma } from 'react-icons/cg'
 
 function Toolstack() {
   return (
@@ -25,6 +26,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <CgFigma />
       </Col>
     </Row>
   )
