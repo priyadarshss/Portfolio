@@ -5,6 +5,7 @@ import Particle from '../Particle'
 import stockpedia from '../../Assets/Projects/stockpedia.png'
 import sticky from '../../Assets/Projects/sticky-notes.png'
 import coinWatch from '../../Assets/Projects/coin-watch.png'
+import krate from '../../Assets/Projects/krate.png'
 
 function Projects() {
   return (
@@ -18,6 +19,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={krate}
+              title='Krate'
+              description='A Web3.0 E-commerce website made using Reactjs; Moralis for backend.
+                           Metamask for Authentication and as a payment gateway.
+                           APIs for products, categories and Ethereum price were used.
+                           Hosted using AWS Amplify and used Ant Design as the UI library'
+              code='https://github.com/priyadarshss/Krate'
+              website='https://main-b.d3f0uwwfr5gqzp.amplifyapp.com/'
+              twoButtons='yes'
+            />
+          </Col>
+
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath={coinWatch}

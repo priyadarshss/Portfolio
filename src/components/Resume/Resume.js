@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/pd-resume.pdf";
+import pdf from "../../Assets/Resume_2022.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -13,8 +13,8 @@ function Resume() {
 
   const [codechefRating, upadteCodechefRating] = useState(0);
   const [codeforcesRating, upadteCodeforcesRating] = useState(0);
-  const sem=4;
-  const cgpa=9.5;
+  const sem=5;
+  const cgpa=9.45;
 
   useEffect(() => {
     axios
@@ -44,29 +44,29 @@ function Resume() {
       <Particle />
       <Container>
         <Row className='resume'>
-          <Col md={2} className='resume-left'>
-            {/* <h3 className='resume-title'>Experience</h3>
+          <Col md={6} className='resume-left'>
+            <h3 className='resume-title'>Experience</h3>
             <Resumecontent
-              title='Fill title'
-              date='Fill date'
+              title='Legal Factory'
+              date='November 2021 - May 2022'
               content={[
-                'Fill description(add , for multiple points'),
-                ' another point',
-              ]}
-            />
-            <h3 className='resume-title'>Extracurricular Activities</h3>
-            <Resumecontent
-              title='Fill title'
-              content={[
-                'Fill description',
+                ' Designed and developed a Full-stack website.',
+                ' Created admin and client dashboards and added functionality using MUI-Datatables.',
+                ' Integrated payment gateway.',
+                ' Tech Stack: Reactjs, MUI-V5, redux-thunk, firebase, figma',
               ]}
             />
             <Resumecontent
-              title='Fill title'
+              title='Integrum Technologies'
+              date='January 2022 - Present'
               content={[
-                'Fill description',
+                'To create a Decision Support System that can rank candidates or clients based on their Job Profiles and company requirements respectively.',
+                'Tech Stack: Python, AWS',
               ]}
-            /> */}
+            />
+            {/* <h3 className='resume-title'>Extracurricular Activities</h3>
+            <Resumecontent title='Fill title' content={['Fill description']} />
+            <Resumecontent title='Fill title' content={['Fill description']} /> */}
           </Col>
           <Col md={6} className='resume-right'>
             <h3 className='resume-title'>Education</h3>

@@ -8,6 +8,7 @@ import {
 } from 'react-icons/si'
 import { SiFirebase } from 'react-icons/si'
 import { CgFigma } from 'react-icons/cg'
+import { FaGitAlt } from 'react-icons/fa'
 
 function Toolstack() {
   return (
@@ -29,6 +30,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <CgFigma />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <FaGitAlt />
       </Col>
     </Row>
   )
