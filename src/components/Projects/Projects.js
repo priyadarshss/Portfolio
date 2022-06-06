@@ -6,6 +6,7 @@ import stockpedia from '../../Assets/Projects/stockpedia.png'
 import sticky from '../../Assets/Projects/sticky-notes.png'
 import coinWatch from '../../Assets/Projects/coin-watch.png'
 import krate from '../../Assets/Projects/krate.png'
+import sav from '../../Assets/Projects/sorting-visualizer.png'
 
 function Projects() {
   return (
@@ -50,6 +51,15 @@ function Projects() {
               title='Sticky Notes'
               description='A web browser extension that lets you annotate web pages and persists those annotations across page visits. Made using ReactJS and Chrome local storage.'
               code='https://github.com/priyadarshss/Sticky-Notes-Browser-Extension'
+            />
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={sav}
+              title='Sorting Visualizer'
+              description='An Algorithm based sorting visualizer made using Pygame module. Used concepts of in-place sorting algorithms such as Bubble sort and Insertion sort. Converted into an executable file using pyinstaller module'
+              code='https://github.com/priyadarshss/Sorting-Visualizer'
             />
           </Col>
 

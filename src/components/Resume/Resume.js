@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Resume_2022.pdf";
+import pdf from "../../Assets/Resume_1.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -56,12 +56,13 @@ function Resume() {
                 ' Tech Stack: Reactjs, MUI-V5, redux-thunk, firebase, figma',
               ]}
             />
+            <h3 className='resume-title'>Ratings and Achivements</h3>
             <Resumecontent
-              title='Integrum Technologies'
-              date='January 2022 - Present'
+              title=''
               content={[
-                'To create a Decision Support System that can rank candidates or clients based on their Job Profiles and company requirements respectively.',
-                'Tech Stack: Python, AWS',
+                `Current rating in Codechef: ${codechefRating ? (codechefRating) : (1748)}`,
+                `Current rating in Codeforces: ${codeforcesRating}`,
+                `Participant in Bajaj Finserv HackRx 2021`,
               ]}
             />
             {/* <h3 className='resume-title'>Extracurricular Activities</h3>
@@ -84,15 +85,6 @@ function Resume() {
               title='10TH CBSE BOARD [Global Indian International School, Kuala Lumpur] '
               date='2016 - 2017'
               content={['10 CGPA']}
-            />
-            <h3 className='resume-title'>Ratings and Achivements</h3>
-            <Resumecontent
-              title=''
-              content={[
-                `Current rating in Codechef: ${codechefRating}`,
-                `Current rating in Codeforces: ${codeforcesRating}`,
-                `Participant in Bajaj Finserv HackRx 2021`,
-              ]}
             />
           </Col>
         </Row>
