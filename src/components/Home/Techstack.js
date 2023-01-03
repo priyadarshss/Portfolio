@@ -7,7 +7,12 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-} from "react-icons/di";
+  DiMysql,
+  DiBootstrap,
+} from 'react-icons/di'
+
+import {FaAws} from 'react-icons/fa'
+
 
 function Techstack() {
   return (
@@ -25,8 +30,17 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
         <DiNodejs />
-      </Col>      
+      </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <DiMongodb />
       </Col>

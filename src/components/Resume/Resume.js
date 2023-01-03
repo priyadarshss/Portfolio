@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Resume_1.pdf";
+import pdf from "../../Assets/Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -13,8 +13,8 @@ function Resume() {
 
   const [codechefRating, upadteCodechefRating] = useState(0);
   const [codeforcesRating, upadteCodeforcesRating] = useState(0);
-  const sem=5;
-  const cgpa=9.45;
+  const sem=7;
+  const cgpa=9.27;
 
   useEffect(() => {
     axios
@@ -54,13 +54,16 @@ function Resume() {
                 ' Created admin and client dashboards and added functionality using MUI-Datatables.',
                 ' Integrated payment gateway.',
                 ' Tech Stack: Reactjs, MUI-V5, redux-thunk, firebase, figma',
+                ' Website: https://legalfactory.in/',
               ]}
             />
             <h3 className='resume-title'>Ratings and Achivements</h3>
             <Resumecontent
               title=''
               content={[
-                `Current rating in Codechef: ${codechefRating ? (codechefRating) : (1748)}`,
+                `Current rating in Codechef: ${
+                  codechefRating ? codechefRating : 1631
+                }`,
                 `Current rating in Codeforces: ${codeforcesRating}`,
                 `Participant in Bajaj Finserv HackRx 2021`,
               ]}
