@@ -13,6 +13,7 @@ This project was built using these technologies.
 - Node.js
 - CSS3
 - Firebase
+- Bootstrap
 
 ## Features
 
