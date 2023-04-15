@@ -9,6 +9,7 @@ import Krate from '../../Assets/Projects/krate.png'
 import Sav from '../../Assets/Projects/sorting-visualizer.png'
 import Groove from '../../Assets/Projects/groove.png'
 import Sociopad from '../../Assets/Projects/sociopad.png'
+import MindFlow from '../../Assets/Projects/mind-flow.png'
 
 function Projects() {
   return (
@@ -22,6 +23,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={MindFlow}
+              title='MindFlow'
+              description='An AI-powered image generation web-app developed using MongoDB, ExpressJS, NodeJS, and ReactJS (MERN stack). Integrated OpenAI’s DALL-E model for image generation. Image hosting and management implemented using Cloudinary. Utilized Tailwind CSS for front-end styling.'
+              code='https://github.com/priyadarshss/MindFlow/'
+              website='https://mind-flow-priyadarshss.vercel.app/'
+              twoButtons='yes'
+            />
+          </Col>
+
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath={Groove}
