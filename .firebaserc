@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "pd728-portfolio"
-  }
+  },
+  "targets": {
+    "pd728-portfolio": {
+      "hosting": {
+        "pd": [
+          "priyadarsh-ss"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
