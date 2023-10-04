@@ -19,9 +19,9 @@ function Home2() {
               LET ME <span className='orange'> INTRODUCE </span> MYSELF
             </h1>
             <p className='home-about-body'>
-              I'm a 4th Year,
-              <b className='orange'> Computer Science and Engineering (Core)</b>
-              , student from SRMIST, Chennai.
+              I'm a
+              <b className='orange'> Computer Science and Engineering (Core)&nbsp;</b>
+              graduate from SRMIST, Chennai (2019-2023).
               <br />
               <br />
               Fluent in classics like
