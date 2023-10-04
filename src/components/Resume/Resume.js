@@ -47,7 +47,7 @@ function Resume() {
             <h3 className='resume-title'>Experience</h3>
             <Resumecontent
               title='Wall'
-              date='May 2023 - Present'
+              date='May 2023 - September 2023'
               content={[
                 'Improved website performance to a 97+ Lighthouse score, enhancing site efficiency by 235%.',
                 'Enhanced user experience through modal design and developed seamless login flows for platforms including Google, Discord, Twitter, and Web3 wallets like MetaMask, Leap, and WalletConnnect.',
