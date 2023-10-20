@@ -76,7 +76,7 @@ function Home2() {
               </ul>
             </div>
             <br></br>
-            <h1>FIND ME ON</h1>
+            <h1 style={{fontSize: "40px", fontWeight: "900"}}>FIND ME ON</h1>
             <p>
               Feel free to <span className='orange'>connect </span>with me
             </p>
