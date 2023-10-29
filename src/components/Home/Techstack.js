@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import React from 'react'
+import { Col, Row } from 'react-bootstrap'
+import { CgCPlusPlus } from 'react-icons/cg'
 import {
   DiJavascript1,
   DiReact,
@@ -10,24 +10,43 @@ import {
   DiMysql,
   DiBootstrap,
 } from 'react-icons/di'
-
-import {FaAws} from 'react-icons/fa'
-
+import {
+  SiNextDotJs,
+  SiPostgresql,
+  SiRedis,
+  SiTypescript,
+} from 'react-icons/si'
+import { FaAws, FaDocker } from 'react-icons/fa'
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className='tech-icons'>
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className='tech-icons'>
-        <DiPython />
+        <SiNextDotJs />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <DiReact />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <SiRedis />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <DiMysql />
@@ -48,4 +67,4 @@ function Techstack() {
   )
 }
 
-export default Techstack;
+export default Techstack

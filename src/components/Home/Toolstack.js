@@ -1,5 +1,5 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 import {
   SiVisualstudiocode,
   SiJupyter,
@@ -9,6 +9,7 @@ import {
 import { SiFirebase } from 'react-icons/si'
 import { CgFigma } from 'react-icons/cg'
 import { FaGitAlt } from 'react-icons/fa'
+import { AiFillGithub } from 'react-icons/ai'
 
 function Toolstack() {
   return (
@@ -32,10 +33,13 @@ function Toolstack() {
         <CgFigma />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
+        <AiFillGithub />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
         <FaGitAlt />
       </Col>
     </Row>
   )
 }
 
-export default Toolstack;
+export default Toolstack

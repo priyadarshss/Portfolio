@@ -46,19 +46,20 @@ function Resume() {
           <Col md={6} className='resume-left'>
             <h3 className='resume-title'>Experience</h3>
             <Resumecontent
-              title='Wall'
-              date='May 2023 - September 2023'
+              title='Wall.app'
+              date='May 2023 - October 2023'
+              position='SDE-1'
               content={[
                 'Improved website performance to a 97+ Lighthouse score, enhancing site efficiency by 235%.',
                 'Enhanced user experience through modal design and developed seamless login flows for platforms including Google, Discord, Twitter, and Web3 wallets like MetaMask, Leap, and WalletConnnect.',
                 'Redesigned the profile page to accommodate multi-wallet and social logins, optimizing rewards and leaderboard systems.',
                 'Introduced email login via magic links, added home page quest filters, and UTM tag scripts to boost Google Analytics referral tracking.',
                 'Aided in the development and launch of the Wall app on Play Store, enhancing user reach.',
-                'Website: wall.app',
               ]}
             />
             <Resumecontent
               title='Legal Factory'
+              position='Software Developer'
               date='November 2021 - May 2022'
               content={[
                 ' Designed and developed a Full-stack website.',
