@@ -105,7 +105,13 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
-          <Button variant='primary' href={pdf} target='_blank'>
+          <Button
+            variant='primary'
+            href={
+              'https://drive.google.com/file/d/1buzcoUDF4f1pbMcbrEd34bMtTa8riMvD/view?usp=sharing'
+            }
+            target='_blank'
+          >
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
